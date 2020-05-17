@@ -9,6 +9,9 @@
 </head>
 <body>
     <div class="container-fluid">
+        <div class="row justify-content-center">
+            <header><h1>Weather Dashboard App</h1></header>
+        </div>
         <div class="row">
             <div class="col-sm sidebar">
                 <h6>Enter your city for the latest weather update.</h6>
@@ -19,18 +22,35 @@
                 <div class="col city-list">Houston</div>
             </div>
             <div class="col-sm">
-              One of three columns
+                <div class="card" style="width: 28rem;">
+                    <div class="card-body">
+                      <h5 class="card-title city-title">Houston</h5>
+                      <p class="card-text city-humid">Humidity: 85%</p>
+                    </div>
+                    <img src="..." class="card-img-btm" alt="...">
+                  </div>
             </div>
-            <div class="col-sm">
-              One of three columns
+            <div class="col-sm degrees-div">
+              <div id="degrees"></div>
             </div>
           </div>
-        <!--<div class="row flex-xl-nowrap">
-            <div class="col-md-3 col-xl-2 bd-sidebar bg-light">
-                
-                <div class="city-list"></div>
-            </div>
-        </div>-->
+                <div class="row">
+                    <div class="col">
+                      1 of 5
+                    </div>
+                    <div class="col">
+                      2 of 5
+                    </div>
+                    <div class="col">
+                      3 of 5
+                    </div>
+                    <div class="col">
+                      4 of 5
+                    </div>
+                    <div class="col">
+                      5 of 5
+                    </div>
+                    </div>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
