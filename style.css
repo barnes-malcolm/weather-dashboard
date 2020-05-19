@@ -1,0 +1,38 @@
+body {
+    background-color: whitesmoke;
+}
+
+.headline {
+    background-color: cyan;
+    color: black;
+    
+}
+
+.sidebar {
+    background-color: darkgray;
+
+}
+
+.btn-outline-success {
+    border-color: cyan;
+    color: cyan;
+}
+
+.btn-outline-success:hover {
+    border-color: cyan;
+    color: cyan;
+    background-color: darkcyan;
+}
+
+.btn-outline-success:active {
+    background-color: darkcyan !important;
+  }
+
+.current-city {
+      font-size: 50px;
+  }
+
+  #degrees {
+      font-size: 100px;
+      font-weight: bold;
+  }
